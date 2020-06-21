@@ -1,0 +1,13 @@
+addon googledocs version 4.103.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+googlesheet.open 1n65pE8Ks2SX8UdfZqgo85if7dazKDoRA8Gp1ZBSAeIE result ♥sheetId1
+googlesheet.gettitle ♥title
+dialog ♥title
+googlesheet.open 1rt4fKfl4J3CsJoFsOujkIL70-sT38AkX9B-9EKPhm9o result ♥sheetId2
+googlesheet.gettitle ♥title
+dialog ♥title
+googlesheet.switch id ♥sheetId1
+googlesheet.gettitle result ♥title
+dialog ♥title
+googlesheet.close id ♥sheetId2

@@ -1,0 +1,7 @@
+addon iexplorer version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+ie.open https://download.microsoft.com/download/6/D/F/6DF3FF94-F7F9-4F0B-838C-A328D1A7D0EE/vc_redist.x86.exe
+window ‴✱internet explorer✱‴
+delay 2
+ie.saveas ♥environment⟦USERPROFILE⟧\Desktop\foo.exe

@@ -1,0 +1,10 @@
+addon iexplorer version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+ie.open g1ant.com result ♥g1ant
+window ‴✱internet explorer✱‴ style maximize
+ie.open duckduckgo.com result ♥duck
+window ‴✱internet explorer✱‴ style maximize
+ie.switch ♥g1ant
+ie.gettitle
+dialog ♥result

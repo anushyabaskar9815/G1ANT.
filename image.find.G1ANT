@@ -1,0 +1,9 @@
+addon images version 4.103.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥image1 = ♥environment⟦USERPROFILE⟧\Desktop\image1.png
+file.download https://media-exp1.licdn.com/dms/image/C4D1BAQEm90y-dRoUog/company-background_10000/0?e=2159024400&v=beta&t=f_nCG1Lbyp-5Bj8utdBs7z3JkPsXuYvHzcDrmP2NC64 filename ♥image1
+file.copy path ♥environment⟦USERPROFILE⟧\Desktop\image1.png destinationpath ♥environment⟦USERPROFILE⟧\Desktop\image2.png
+♥image2 = ♥environment⟦USERPROFILE⟧\Desktop\image2.png
+image.find image1 ♥image1 image2 ♥image2 threshold 1 relative false result ♥point
+dialog ♥point
